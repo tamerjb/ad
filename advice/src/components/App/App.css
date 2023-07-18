@@ -1,0 +1,6 @@
+.App {
+  max-width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: hsl(218, 23%, 16%);
+}
