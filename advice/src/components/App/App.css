@@ -3,4 +3,29 @@
   height: 100vh;
   margin: 0 auto;
   background-color: hsl(218, 23%, 16%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+}
+
+.body {
+  width: 40%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+@media only screen and (max-width: 1024px) {
+  .body {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .body {
+    max-width: 80%;
+  }
 }
