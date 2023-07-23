@@ -51,7 +51,12 @@ const Advice = () => {
           <img src={splitter} className='splitter' />
         </div>
         <div className='button'>
-          <img onClick={handleButtonClick} src={button} className='button2' />
+          <img
+            onClick={handleButtonClick}
+            src={button}
+            className='button2'
+            alt='test'
+          />
         </div>
       </div>
     </div>
