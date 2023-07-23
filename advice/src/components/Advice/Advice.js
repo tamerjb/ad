@@ -55,7 +55,7 @@ const Advice = () => {
             onClick={handleButtonClick}
             src={button}
             className='button2'
-            alt='test'
+            alt='testt'
           />
         </div>
       </div>
