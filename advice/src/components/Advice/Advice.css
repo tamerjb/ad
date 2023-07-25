@@ -20,7 +20,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  row-gap: 10%;
+  row-gap: 5%;
   padding: 0;
   margin: 0;
 }
@@ -68,17 +68,15 @@
   cursor: pointer;
   position: relative;
   right: 0;
-  top: 45px;
+  top: 85px;
 }
 
 @media only screen and (max-width: 425px) {
-  .advice__button__container_button {
-    top: 55px;
-  }
   .advice__text__content {
     font-size: 24px;
   }
   .advice__content {
     max-width: 95%;
+    height: 30vh;
   }
 }
