@@ -9,6 +9,10 @@ const Advice = () => {
     fetchAdvice();
   }, []);
 
+  ///////////////////////////////////////////////////
+  /////////////////////API///////////////////////////
+  ///////////////////////////////////////////////////
+
   const fetchAdvice = async () => {
     try {
       const response = await fetch('https://api.adviceslip.com/advice');
@@ -27,6 +31,10 @@ const Advice = () => {
     // When the button is clicked, fetch new advice
     fetchAdvice();
   };
+
+  ///////////////////////////////////////////////////
+  ///////////////Random number logic/////////////////
+  ///////////////////////////////////////////////////
   function getRandomRoundedNumber(min, max) {
     // Generate a random number between 0 and 1
     const random = Math.random();
@@ -48,14 +56,15 @@ const Advice = () => {
         <p className='advice__number'>ADVICE #{randomRoundedNumber}</p>
         <div className='advice__text__container'>
           <p className='advice__text__content'>"{advice}"</p>
-          <img src={splitter} className='splitter' />
         </div>
-        <div className='button'>
+        <img src={splitter} className='advice__splitter' />
+
+        <div className='advice__button__container'>
           <img
             onClick={handleButtonClick}
             src={button}
-            className='button2'
-            alt='testt'
+            className='advice__button__container_button'
+            alt='button'
           />
         </div>
       </div>
