@@ -15,12 +15,12 @@
 }
 .advice__content {
   min-width: 100%;
-  height: 40vh;
+  height: 30vh;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  row-gap: 5%;
+  row-gap: 4%;
   padding: 0;
   margin: 0;
 }
@@ -68,7 +68,7 @@
   cursor: pointer;
   position: relative;
   right: 0;
-  top: 85px;
+  top: 75px;
 }
 
 @media only screen and (max-width: 425px) {
